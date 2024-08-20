@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+div{
+    background-color: black;
+}
+#over{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#over img{
+    width: 250px;
+    height: 250px;
+}

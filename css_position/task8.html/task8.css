@@ -1,0 +1,86 @@
+.background {
+    width: 500px;
+    height: 400px;
+    background-color: darkgray;
+    display: flex;
+
+    position: relative;
+}
+
+.circle1 {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    width: 100px;
+    height: 100px;
+    left: 20%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsLiZe-U5rhgI7VZddmdiqB6g5KBvHdS_owQ&s);
+    border-radius: 50px;
+    border: 2px solid white;
+    z-index: 1;
+
+}
+
+.circle2big {
+    position: absolute;
+    top: 5%;
+    right: 30%;
+    width: 200px;
+    height: 200px;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsLiZe-U5rhgI7VZddmdiqB6g5KBvHdS_owQ&s);
+    border-radius: 100px;
+    border: 2px solid white;
+
+}
+
+.left_small_circel {
+    position: absolute;
+    top: 60%;
+    width: 25px;
+    height: 25px;
+    left: 10%;
+
+    border-radius: 100px;
+    border: 10px solid lightgrey;
+
+}
+
+.small_circle {
+
+    position: absolute;
+    top: 70%;
+    width: 75px;
+    height: 75px;
+    left: 30%;
+
+    border-radius: 100px;
+    border: 10px solid lightgrey;
+
+}
+
+.box {
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+    top: 32%;
+    left: 50%;
+    border-radius: 25px;
+
+    background-color: aliceblue;
+
+
+
+}
+
+.box p {
+
+    width: 150px;
+    height: 150px;
+    color: red;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 15px;
+
+}

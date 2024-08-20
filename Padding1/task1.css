@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.box1{
+    border: 2px solid black;
+    background-color: orangered;
+    box-sizing: border-box;
+    max-width: 200px;
+    height: 200px;
+    padding:55px;
+}
+button{
+    width: 70px;
+    height: 25px;
+    border-radius: 12px;
+    background-color: orange;
+}

@@ -1,0 +1,12 @@
+.container p{
+    font-weight: bold;
+}
+.container span{
+    color: orange;
+}
+.inner p{
+    font-size: lightblue;
+}
+#heading1{
+    color: darkred;
+}
